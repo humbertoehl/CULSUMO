@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CULSUMO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><h2>CULSUMO</h2></li>
+            <li><a href="#quienes-somos">QUIENES SOMOS</a></li>
+            <li><a href="#cafeterias">CAFETERÍAS</a></li>
+            <li><a href="#galerias">GALERÍAS</a></li>
+            <li><a href="#artistas-locales">ARTISTAS LOCALES</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+        
+    </nav>
+
+    <header id="quienes-somos">
+        <h1>CULSUMO</h1>
+        <div id="texto-quienes-somos">CULSUMO pretende ser un lugar donde se recopilen espacios de consumo cultural de la ciudad de Xalapa, Veracruz. El proyecto surge de la necesidad de tener a la mano los puntos de concentración de arte y cultura disponibles en la ciudad, así como proporcionar una guía para alguien que quiera introducirse en estos círculos culturales. <br>
+        Contamos con colaboradores que se dedican a investigar los lugares y elaborar reviews que garanticen la calidad del espacio y la satisfacción de las personas.</div>
+
+    </header>
+
+    <section id="cafeterias">
+        <h2>CAFETERÍAS</h2>
+        <div class="contenido">
+            <article>
+                <h3>cafetería 1</h3>
+                <img src="img/caf1.png" alt="cafetería 1">
+                <p>Esta cafetería es interesante porque [aquí se describe la cafetería]...</p>
+                <button>Leer más...</button>
+            </article>
+            <article>
+                <h3>cafetería 2</h3>
+                <img src="img/caf2.png" alt="cafetería 2">
+                <p>Esta cafetería es interesante porque [aquí se describe la cafetería]...</p>
+                <button>Leer más...</button>
+            </article>
+            <article>
+                <h3>cafetería 3</h3>
+                <img src="img/caf3.png" alt="cafetería 3">
+                <p>Esta cafetería es interesante porque [aquí se describe la cafetería]...</p>
+                <button>Leer más...</button>
+            </article>
+        </div>
+        <img src="img/angles-right-solid.svg" alt="more" id="more">
+    </section>
+
+    <section id="galerias">
+        <h2>GALERÍAS</h2>
+        <div class="contenido">
+            <article>
+                <h3>galería 1</h3>
+                <img src="img/gal1.png" alt="galería 1">
+                <p>Esta galería es interesante porque [aquí se describe la galería]...</p>
+                <button>Leer más...</button>
+            </article>
+            <article>
+                <h3>galería 2</h3>
+                <img src="img/gal2.png" alt="galería 2">
+                <p>Esta galería es interesante porque [aquí se describe la galería]...</p>
+                <button>Leer más...</button>
+            </article>
+            <article>
+                <h3>galería 3</h3>
+                <img src="img/gal3.png" alt="galería 3">
+                <p>Esta galería es interesante porque [aquí se describe la galería]...</p>
+                <button>Leer más...</button>
+            </article>
+        </div>
+        <img src="img/angles-right-solid.svg" alt="more" id="more">
+    </section>
+
+    <section id="artistas-locales">
+        <h2>ARTISTAS LOCALES</h2>
+        <div class="contenido">
+            <article>
+                <h3>artista 1</h3>
+                <img src="img/art1.png" alt="artista 1">
+                <p>Este artista se caracteriza por [aquí se presenta el trabajo del artista]...</p>
+                <button>Leer más...</button>
+            </article>
+            <article>
+                <h3>artista 2</h3>
+                <img src="img/art2.png" alt="artista 2">
+                <p>Este artista se caracteriza por [aquí se presenta el trabajo del artista]...</p>
+                <button>Leer más...</button>
+            </article>
+            <article>
+                <h3>artista 3</h3>
+                <img src="img/art3.png" alt="artista 3">
+                <p>Este artista se caracteriza por [aquí se presenta el trabajo del artista]...</p>
+                <button>Leer más...</button>
+            </article>
+        </div>
+        <img src="img/angles-right-solid.svg" alt="more" id="more">
+    </section>
+
+    <section id="contacto">
+        <h2>CONTACTO</h2>
+        <img src="img/envelope-solid.svg" alt="correo-logo" id="correo-logo">
+        <form action="#">
+            <div class="itemform">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" minlength="2" maxlength="64" size="40" required>
+            </div>
+            <div class="itemform">
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" minlength="10" maxlength="64" size="40" required>
+            </div>
+            <div class="itemform">
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" cols="40" rows="6"></textarea>
+            </div>
+            <div class="itemform">
+                <input type="submit" name="boton-enviar" value="Enviar" id="boton-enviar">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>CULSUMO</p>
+    </footer>
+</body>
+</html>
